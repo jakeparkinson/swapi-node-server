@@ -1,0 +1,21 @@
+{
+  "name": "star-wars-api",
+  "version": "1.0.0",
+  "description": "Example Express server centered around Star Wars. Uses the Star Wars API from swapi.co",
+  "main": "index.js",
+  "author": "Jake Parkinson",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4"
+  }
+}
